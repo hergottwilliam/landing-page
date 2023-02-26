@@ -1,60 +1,25 @@
 .header{
     display: flex;
-    background-color: #273d5c;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bolder;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 75px;
+
+    background-color: #1f2937;
     color: aliceblue;
-    padding: 48px;
-    gap:1000px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .logo{
     flex: 1;
+    font-size: x-large;
+
 }
 
-.links{
-    display: flex;
+.linkbox{
     flex: 1;
-    align-self: flex-end;
-    margin: 24px;
+    display: flex;
     flex-direction: row;
-    gap: 24px;
-    color: aliceblue;
+    justify-content:end;
+    gap: 40px;
 }
-
-.body1{
-    display: flex;
-    background-color: #273d5c;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: aliceblue;
-    justify-content: center;
-    padding: 150px;
-    
-}
-
-.profile{
-    flex: 1;
-    margin: 25px;
-}
-
-.caption{
-    font-size: 45px;
-}
-
-.blurb{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: lighter;
-}
-
-.button{
-    font-size: 40px;
-    font-weight: bolder;
-    color: aliceblue;
-}
-
- .image{
-    flex: 1;
-    padding-left: 50px;
- }
-
