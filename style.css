@@ -37,7 +37,7 @@
     margin: 25px;
 }
 
-.hello{
+.caption{
     font-size: 45px;
 }
 
@@ -49,11 +49,12 @@
 
 .button{
     font-size: 40px;
+    font-weight: bolder;
     color: aliceblue;
 }
 
  .image{
     flex: 1;
-    height: 20px;
-    width: auto;
+    padding-left: 50px;
  }
+
